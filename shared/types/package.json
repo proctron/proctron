@@ -1,0 +1,17 @@
+{
+  "name": "@shared/types",
+  "version": "1.0.0",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc --build",
+    "lint": "eslint --fix source"
+  },
+  "dependencies": {
+    "turbo": "^1.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tsconfig",
+  "version": "1.0.0",
+  "main": "tsconfig.json",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  },
+  "private": true
+}

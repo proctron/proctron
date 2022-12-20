@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "pretty": true,
+    //
+    "target": "esnext",
+    "module": "commonjs",
+    //
+    "lib": [
+      "esnext"
+    ],
+    //
+    "declaration": true,
+    "sourceMap": true,
+    //
+    "esModuleInterop": true,
+    //
+    "strictPropertyInitialization": false
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

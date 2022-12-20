@@ -1,0 +1,35 @@
+{
+  "name": "@proctron/core",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "module": "dist/main.mjs",
+  "types": "dist/main.d.ts",
+  "bin": {
+    "proctron": "dist/bin.js"
+  },
+  "scripts": {
+    "dev": "rollup --config rollup.config.ts --configPlugin typescript -w",
+    "build": "rollup --config rollup.config.ts --configPlugin typescript"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "chalk": "^5.2.0",
+    "@shared/types": "*"
+  },
+  "devDependencies": {
+    "rollup": "^3.7.5",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "rollup-plugin-tsconfig-paths": "^1.4.0",
+    "rollup-plugin-preserve-shebangs": "^0.2.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "tslib": "^2.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+# nodejs
+node_modules/
+
+# turborepo
+.turbo/
+
+# project
+dist/
+
+# ide
+.idea/

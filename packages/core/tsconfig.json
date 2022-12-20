@@ -1,0 +1,28 @@
+{
+  "extends": "tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "lib",
+    "outDir": "dist",
+    //
+    "baseUrl": "lib",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "~bin/*": [
+        "./bin/*"
+      ],
+      "~source/*": [
+        "./source/*"
+      ]
+    },
+    "noEmit": true,
+    "declaration": false,
+  },
+  "include": [
+    "lib"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
